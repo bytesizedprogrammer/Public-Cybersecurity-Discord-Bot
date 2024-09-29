@@ -18,33 +18,23 @@ Ensure you have the following software installed:
 
 ### Installation
 
-1. **Clone the Repository:**
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
+1. **Download the Code here**
 
 2. **Set Up Environment Variables:**
-   - Fill in the `.env` file with your API keys.
-   - Update `config.json` and `index.js` with any necessary configurations.
+   - Fill in the `index.js` file with your API keys.
+   - Update `config.json` and `.env` with any necessary configurations.
 
 3. **Install Dependencies:**
    Open your terminal and run:
-   ```bash
    npm install
-   ```
 
 4. **Deploy Commands:**
    Execute the following command to deploy the bot's commands:
-   ```bash
    node deploy-commands.js
-   ```
 
 5. **Start the Bot:**
    Finally, start the bot with:
-   ```bash
    node index.js
-   ```
 
 ## Troubleshooting
 
@@ -65,8 +55,3 @@ This project is licensed under the MIT License.
 
 Feel free to reach out if you have any questions or need further assistance!
 ```
-
-### Notes:
-- Replace `<repository-url>` and `<repository-folder>` with the actual URL and folder name for your project.
-- Adjust the license section if you're using a different license.
-- You can add more sections as needed, like contribution guidelines or acknowledgments.
