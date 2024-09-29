@@ -1,4 +1,5 @@
 To run bot:
+ - Fill in .env, config.json, index.js API key
  - npm install
  - node deploy-commands.js
  - node index.js
